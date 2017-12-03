@@ -4,23 +4,23 @@ import math
 
 # Load sprites
 TILE_DOWN = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsSFlHQklyaVE4Nk0")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/down.png?raw=true")
 CAKE = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsQTdCOVNnZFF5cjA")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/cake.png?raw=true")
 HAPPY = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsalM0RV9QX05oYUU")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/happy.png?raw=true")
 HIFIVE = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsWUpwcVFCTzJaT1k")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/hifive.png?raw=true")
 MAGIC8 = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJseEM1djRQVy1BV1k")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/magic8.png?raw=true")
 MONKEY = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsSFpkMm9MX0RSeE0")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/monkey.png?raw=true")
 PARTY = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJseGZwOEJhd0l6TmM")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/party.png?raw=true")
 PIG = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsYlhzWGgxYmJjUWc")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/pig.png?raw=true")
 STAR = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsRU5tdkdtZDU5Z2s")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/memoji/assets/star.png?raw=true")
 
 # Tiles traits
 DISTINCT_TILES = 8

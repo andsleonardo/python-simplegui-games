@@ -69,10 +69,9 @@ nebula_image = sg.load_image(
     "codeskulptor-assets/lathrop/nebula_brown.png")
 
 # SPLASH IMAGE
-splash_info = ImageInfo([200, 150], [400, 300])
+splash_info = ImageInfo([WIDTH/2, HEIGHT/2], [WIDTH, HEIGHT])
 splash_image = sg.load_image(
-    "http://commondatastorage.googleapis.com/"
-    "codeskulptor-assets/lathrop/splash.png")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/ricerocks/assets/splash.png?raw=true")
 
 # SHIP IMAGE
 ship_info = ImageInfo([45, 45], [90, 90], 35)

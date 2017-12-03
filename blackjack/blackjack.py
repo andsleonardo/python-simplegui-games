@@ -30,7 +30,7 @@ TEXT_DIV = 5
 
 # Load 230x51 Blackjack title (Source: @andsnleo)
 BLACKJACK_TITLE = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsbktraEt6QUpwMnM")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/blackjack/assets/blackjack-title.png?raw=true")
 TITLE_SIZE = (230, 51)
 TITLE_CENTER = (TITLE_SIZE[0] / 2, TITLE_SIZE[1] / 2)
 
@@ -44,7 +44,7 @@ card_images = sg.load_image(
 CARD_BACK_SIZE = (71, 96)
 CARD_BACK_CENTER = (36, 48)
 card_back = sg.load_image(
-    "//googledrive.com/host/0B1NYWkyBivJsS3prb21nVnFXVE0")
+    "https://github.com/andsnleo/python-simplegui-games/blob/master/blackjack/assets/blackjack-card-back.png?raw=true")
 
 # Define globals for cards
 SUITS = ('C', 'S', 'H', 'D')

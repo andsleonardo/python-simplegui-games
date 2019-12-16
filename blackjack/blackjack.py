@@ -335,8 +335,10 @@ def stand():
                     "Another deal?"
                     % (dealer_hand.get_value(), dealer_bet))
             else:
-                bottom_alert = "It's a tie! The dealer wins this round,"
-                "and you lose %i." % (dealer_bet)
+                bottom_alert = (
+                    "It's a tie! The dealer wins this round, "
+                    "and you lose %i."
+                    % (dealer_bet))
     elif not in_play and start:
         bottom_alert = (
             "This turn's already ended. "
